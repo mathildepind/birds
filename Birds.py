@@ -10,8 +10,10 @@ musvit = {'name': 'Musvit','colour':'gul' ,'size':'lille' }
 skovdue = {'name':'Skovdue' ,'colour':'grå' ,'size': 'stor'}
 blåmejse = {'name':'Blåmejse' ,'colour':'blå' ,'size':'lille' }
 solsort= {'name':'Solsort' ,'colour':'sort' ,'size':'mellem' }
+rødhals = {'name':'Rødhals' ,'colour':'rød' ,'size':'lille' }
 
-birds = [musvit,skovdue,blåmejse,solsort]
+
+birds = [musvit,skovdue,blåmejse,solsort,rødhals]
 
 #bird_attr = {'size':['lille','mellem','stor']}
 
@@ -22,8 +24,8 @@ if q1 == 'Ja' or q1 == 'ja':
     print ('Yay!')
     q2 = input("Ved du hvilken fugl det er? ")
     if q2 == 'Ja' or q2 == 'ja':
-        q3 = input("Er det en musvit, en skovdue, en blåmejse eller en solsort? ")
-        if q3 == 'musvit' or q3 == 'skovdue' or q3 == 'blåmejse' or q3 == 'solsort':
+        q3 = input("Er det en musvit, en skovdue, en blåmejse, en rødhals eller en solsort? ")
+        if q3 == 'musvit' or q3 == 'skovdue' or q3 == 'blåmejse' or q3 == 'rødhals' or q3 == 'solsort':
             print ('Godt klaret!')
         else:
             print('')
